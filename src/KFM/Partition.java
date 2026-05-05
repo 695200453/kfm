@@ -1,4 +1,4 @@
-package kfm.src.KFM;
+package src.KFM;
 
 import java.util.*;
 

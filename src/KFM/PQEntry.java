@@ -1,4 +1,4 @@
-package kfm.src.KFM;
+package src.KFM;
 
 public class PQEntry {
     public Vertex vertex;
