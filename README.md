@@ -29,7 +29,7 @@ The algorithm performs `tau` iterations of FM passes, each following this workfl
 ## Project Structure
 
 ```
-src/main/java/KFM/
+src/KFM/
 ├── KFM.java          # Core partitioning algorithm implementation
 ├── Graph.java        # DAG representation with topological sorting
 ├── Vertex.java       # Vertex data structure with edge management
@@ -46,7 +46,7 @@ Requires Java Development Kit (JDK) 8 or higher.
 
 ```bash
 # Compile
-javac -d out src/main/java/KFM/*.java
+javac -d out src/KFM/*.java
 
 # Run example
 java -cp out KFM.KFMExample
